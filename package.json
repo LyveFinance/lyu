@@ -36,6 +36,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@api3/contracts": "^1.2.0",
+    "@chainlink/contracts": "^0.8.0",
     "@openzeppelin/contracts": "^4.9.2",
     "@openzeppelin/contracts-upgradeable": "^4.9.2"
   },

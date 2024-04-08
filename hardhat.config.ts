@@ -61,6 +61,10 @@ const config: HardhatUserConfig = {
             url: `https://arb-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_ARB_GOERLI}`,
             accounts: [`${process.env.PRIVATE_KEY}`],
         },
+        merlinTestnet: {
+            url: `https://testnet-rpc.merlinchain.io`,
+            accounts: [`${process.env.PRIVATE_KEY}`]
+        },
         // for mainnet
     "base-mainnet": {
         url: 'https://mainnet.base.org',
